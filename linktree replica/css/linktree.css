@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(132, 132, 132);
+    font-family: Karla, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* LOGO CSS  */
+.logo {
+    align-items: center;
+    /* border:black solid 2px; */
+    text-align: center;
+    margin: 31px;
+    padding: 20px;
+    color: white;
+    /* background-color: red; */
+}
+
+.logo img {
+    width: 98px;
+    height: 99px;
+    display: block;
+    margin: auto;
+    border-radius: 100px;
+}
+
+.logo::after {
+    box-sizing: inherit;
+}
+
+/* THE DIV WHERE ALL THE BUTTONS ARE PLACED  */
+
+.container {
+    margin-top: 0px;
+    text-align: center;
+    margin-top: -41px;
+}
+
+.container li {
+    list-style: none;
+    margin: 61px;
+    /* transition-property:background-color;
+    transition-duration: 5s; */
+
+}
+
+.container li a {
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 30px;
+    border-image: initial;
+    padding: 18px 300px;
+    background-color: white;
+    color: grey;
+     transition-property:background-color;
+    transition-duration: 0.2s; 
+
+}
+
+.container li a:hover {
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: rgb(132, 132, 132);
+    color: rgb(210, 210, 210);
+}
+
+.container::before {
+    box-sizing: inherit;
+}
+
+/* LAST DIV  */
+
+.nameOfWebsite {
+    margin: 62px;
+    text-align: center;
+}
+
+/* MEDIA QUERY FOR THE WEBSITe  */
+@media(min-width:800px){
+    
+}
